@@ -1,0 +1,102 @@
+:root{
+    --page-background: #515151;
+    --text-color: #cecece;
+    --small-font-size: calc(8px + 64%);
+}
+
+.main-screen{
+    color: var(--text-color);
+    background-color: var(--page-background);
+    padding: 8% 16% 8% 16%;
+    font-size: var(--small-font-size);
+}
+
+.box{
+    color: var(--page-background);
+    background-color: var(--text-color);
+}
+
+.date{
+    padding: 0 2vh 0 2vh;
+    border-radius: 2vh;
+    float: right;
+    text-indent: 0px;
+    border-radius: 2vh;
+}
+
+.to-button{
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.link{
+    border-radius: 1vh;
+    display: inline-block;
+    margin: 1vh;
+    padding: 1vh 4vh 1vh 4vh;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.link:hover{
+    color: #717171;
+    background-color: #eeeeee;
+}
+
+.center{
+    text-align: center;
+}
+
+/* Skill is in dropdown menu form */
+.skill {
+    position: relative;
+    display: inline-block;
+}
+
+.skill-title {
+    padding: 16px;
+    font-size: var(--small-font-size);
+    cursor: pointer;
+    margin: 5vh 6vh 0vh 0vh;
+    border: none;
+    border-radius: 8px;
+    transition: all .5s;
+  }
+
+.skill-detail {
+    display: none;
+    position: absolute;
+    z-index: 1;
+    border-radius: 0 8px 8px 8px;
+    min-width: 360px;
+    border: solid;
+    border-width: 2px;
+    background-color: var(--page-background);
+    border-color: var(--text-color);
+    font-size: var(--small-font-size);
+    transition: all .5s;
+}
+  
+.skill:hover .skill-detail {
+    display: block;
+    height: fit-content;
+    border-color: #eeeeee;
+}
+  
+.skill:hover .skill-title {
+    background-color: #eeeeee;
+    border-radius: 16px 16px 0 0;
+}
+
+/**
+ * Haven't implemented an actual footer yet and maybe it is not needed but let this stay.
+ */
+.footer{
+    height: 320px;
+    background-color: var(--page-background);
+}
+
+.doga-button{
+    margin: 0;
+    text-decoration: none;
+}

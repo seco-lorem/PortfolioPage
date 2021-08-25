@@ -1,0 +1,217 @@
+{
+    "aboutMe": [
+        {
+            "isTitle": true,
+            "text": "Hello World"
+        },
+        {
+            "isTitle": false,
+            "text": "My name is Seçkin(setch-keen). I was born in 2001 in Antalya. I've studied in Antalya till University. Now I study Computer Science in Bilkent University, planning to graduate on 2023. I've done an internship in 2021 summer and looking for one for next year. Please see /projects and /skills"
+        },
+        {
+            "isTitle": true,
+            "text": "My Interests"
+        },
+        {
+            "isTitle": false,
+            "text": "I am fond of computer science and maths. In less scientific but enthusiastic levels, I am into Physics and Linguistics."
+        },
+        {
+            "isTitle": false,
+            "text": "I am very much into Music. I honestly enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years but my skills are way less than that since I rarely practice but mostly jam. I also sing and play harmonica have never had the confidence to do them in a group. In highschool, I got interested in maths behind Music, not to confuse with actual music theory. I only know surface level music theory for a 10+ year musician. I have painted my old classical guitar, assembled a Cura from my grand-uncle's handmade cura body, and built an unplayable one from scratch myself."
+        },
+        {
+            "isTitle": false,
+            "text": "I don't play any computer games since 2017, I forced myself to stop that year. But I still love to hold conversations about some, especially Gta San Andreas."
+        },
+        {
+            "isTitle": false,
+            "text": "I am into geography, culture and a bit less into history. But I hate politics. If I had more time and money, I would be traveling more."
+        }
+    ],
+    "projects": [
+        {
+            "title": "Portfolio Page",
+            "date": "August 2021",
+            "description": "My portfolio site that you are probably on right now. As I was unhappy about my css work in satvi, I saw my need of a portfolio website to prove that I can write more quality css. I've implemented the design my industrial designer friend noted in the footer came up with. I've used React, react-router, vanilla CSS and JSX.",
+            "links": [
+                {
+                    "title": "🔗WebSite",
+                    "link": "https://yektaseckinsatir.com/"
+                },
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/PortfolioPage"
+                }
+            ]
+        },
+        {
+            "title": "SatVI",
+            "date": "July 2021",
+            "description": "Craiglist-like WebSite. I've first started this project with its frontend, using it as a learning and testing playground during internship. Last week of internship I've started learning backend with help of an intern friend. After Internship, I had to disconnect it from company's backend so I decided to build the backend to see it working again. Technologies used in frontend are javascript(React), redux(react-redux), react-router, apollo client(GraphQL), reactstrap(bootstrap), vanilla CSS, JSX. Technologies used in backend are Python, fastapi, graphene(GraphQL), sqlAlchemy. Frontend also includes a video player I created when I was asked if it was possible to build such a thing for advertisements. I've used deta to deploy backend as read-only, firebase to deploy frontend. It is not finished, as it was never intended to be.",
+            "links": [
+                {
+                    "title": "🔗WebSite",
+                    "link": "https://satvi.yektaseckinsatir.com/"
+                },
+                {
+                    "title": "Demo Video",
+                    "link": "https://user-images.githubusercontent.com/62249520/130761281-bb66bc26-235e-4a86-8119-932930483ce5.mp4"
+                },
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/SatVI"
+                }
+            ]
+        },
+        {
+            "title": "WCDTTBot",
+            "date": "June 2021",
+            "description": "Bot for an experimental private subreddit that weekly: Adds random users, Adjusts ranks and adds them as userflairs, Kicks inactive users depending on their ranks, posts a recap about it. A Python project with an internet friend that uses PRAW. About 80% of the code from this version is written by me.",
+            "links": [
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/WCDTTBot"
+                }
+            ]
+        },
+        {
+            "title": "School Work",
+            "date": "~May 2021",
+            "description": "School projects of my sophomore year is not listed here. Some of it is compiled on github with a readMe. Languages: C++ and Assembly and SystemVerilog.",
+            "links": [
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing"
+                }
+            ]
+        },
+        {
+            "title": "Relativity-Simulator",
+            "date": "July 2020",
+            "description": "This project is to help understanding the consequences of the special relativity theory, by setting the speed of light to an understandably-slow value of 100px per second. Made up of neatly Object Oriented Java code. See better documentation on github link. Consists of 2 seperate parts: 1, Lets the user draw a 2d shape on one of the two time-location graph's, which show identical universes viewed by two reference frames with a constant velocity difference. 2, Lets the user control the speed of a reference frame and view a fixed portion of the space containing 3 randomly created creatures from that frame of reference.",
+            "links": [
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/RelativitySimulator"
+                }
+            ]
+        },
+        {
+            "title": "MonitoRing",
+            "date": "June 2020",
+            "description": "MonitoRing is an app where bus(Ring) drivers of Bilkent University log in to share their location data via firebase, and the users can see it on an integrated Google Maps API with routes and bus stops. So the students, teachers and the staff will be able to plan their transportation more efficiently. It is a school project with 5 people, an android app written in Adroid studio with Java.",
+            "links": [
+                {
+                    "title": "Small Demo",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/MonitoRING"
+                }
+            ]
+        }
+    ],
+    "skills": [
+        {
+            "name": "React Javascript",
+            "explanation": "Used in internship as a web developer. Note that SatVI contains my first react code written for test and learning purposes aswell. Latest components I've written in SatVI were sidebar.js and carousel.js",
+            "examples": [
+                {
+                    "title": "SatVI",
+                    "link": "https://github.com/seco-lorem/SatVI"
+                },
+                {
+                    "title": "Portfolio Page",
+                    "link": "https://github.com/seco-lorem/PortfolioPage"
+                }
+            ]
+        },
+        {
+            "name": "C++ & Data Structures",
+            "explanation": "Learnt during my sophomore year. I can say I've comprehended the concepts well.",
+            "examples": [
+                {
+                    "title": "A Homework",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/hw4"
+                }
+            ]
+        },
+        {
+            "name": "Java & OOP",
+            "explanation": "Learnt during my freshmen year. We've also used Spring but I don't remember much about it.",
+            "examples": [
+                {
+                    "title": "Relativity Sim",
+                    "link": "https://github.com/seco-lorem/RelativitySimulator/"
+                },
+                {
+                    "title": "MonitoRing",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/MonitoRING"
+                }
+            ]
+        },
+        {
+            "name": "Python",
+            "explanation": "Learnt for side projects like Reddit bot(PRAW) and satVI-backend(fastAPI, sqlAlchemy, graphQL). I am less experienced in Python than others but it is the language I love the most to learn some Library of.",
+            "examples": [
+                {
+                    "title": "WCDTTBot",
+                    "link": "https://github.com/seco-lorem/WCDTTBot"
+                },
+                {
+                    "title": "SatVI",
+                    "link": "https://github.com/seco-lorem/SatVI"
+                }
+            ]
+        },
+        {
+            "name": "SystemVerilog",
+            "explanation": "Used it in Digital Design and Computer Architecture classes.",
+            "examples": [
+                {
+                    "title": "A Homework",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/224"
+                }
+            ]
+        },
+        {
+            "name": "Assembly(MIPS)",
+            "explanation": "Learnt it in Computer Architecture class. I was good at it but haven't used it since.",
+            "examples": [
+                {
+                    "title": "A Homework",
+                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/224"
+                }
+            ]
+        },
+        {
+            "name": "CSS-HTML",
+            "explanation": "Learnt it prior to my internship in web development. I did not use plain html but did use JSX which extends it.",
+            "examples": [
+                {
+                    "title": "Portfolio Page",
+                    "link": "https://github.com/seco-lorem/PortfolioPage"
+                }
+            ]
+        }
+    ],
+    "links": [
+        {
+            "title": "Github",
+            "link": "https://github.com/seco-lorem"
+        },
+        {
+            "title": "CV",
+            "link": "CV Yekta Seçkin Satır.pdf"
+        },
+        {
+            "title": "Linked in",
+            "link": "https://www.linkedin.com/in/yekta-se%C3%A7kin-sat%C4%B1r-3303731ba/"
+        },
+        {
+            "title": "e-mail",
+            "link": "mailto: seckin.satir@ug.bilkent.edu.tr"
+        }
+    ],
+    "photoLink": "",
+    "projectsExplanation": "Below are my projects in descending order by dates. Note that some of them are from my first months of programming so I'm not proud of each one of them.",
+    "skillsExplanation": "Hover on each skill to see the latest projects I had used them in, and how confident I feel about those skills."
+}

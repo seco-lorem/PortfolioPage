@@ -1,0 +1,55 @@
+:root{
+    --header-height-value: 60;      /* will be manuplated by header.js. Unitless because used to calculate opaqueness of info-box */
+    --main-color-values: 29, 29, 29;                                /*  Unitless because used to calculate rgba color of info-box */
+    --bar-height: calc(2vh + 16px);                             /*Height of the navbar*/
+    --header-height: calc(var(--header-height-value) * 1vh);    /*Height of the header without the navbar*/
+    --main-color: rgb(var(--main-color-values));
+    --secondary-color: #efe4b0;
+    --tertiary-color: #68add0;
+    --writing-color: #979797;
+}
+
+.header{
+    height: calc(var(--header-height) * 3 / 4);
+    background: linear-gradient(-30deg, var(--tertiary-color), var(--secondary-color));
+    text-align: center;
+    padding-top: calc(var(--header-height) / 4);
+    overflow: hidden;
+}
+
+.info-box{
+    display: inline-block;
+    height: calc(var(--header-height) / 4);
+    width: calc(var(--header-height) * 3 / 5);
+    padding: calc(var(--header-height) / 16);
+    font-size: calc(var(--header-height) / 12);
+    overflow: hidden;
+    cursor: default;
+    color: #FFFFFF;
+    background-color: rgba(var(--main-color-values), calc(var(--header-height-value) / 60));
+}
+
+.nav-bar{
+    text-align: center;
+    padding-top: calc(var(--bar-height) / 10);
+    overflow: hidden;
+    background-color: var(--main-color);
+    height: var(--bar-height);
+}
+
+.button{
+    cursor: pointer;
+    font-weight: bold;
+    font-family: Verdana, sans-serif;
+    margin-left: 4%;
+    width: 100%;
+    color: var(--writing-color);
+}
+.button:hover {
+    color: var(--secondary-color);
+}
+
+.disabled-button {
+    cursor: default;
+    color: var(--tertiary-color);
+}
