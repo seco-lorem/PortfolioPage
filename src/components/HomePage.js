@@ -9,11 +9,10 @@ function HomePage() {
     return (
         <div>
             <div className="center">
-                <h1> About Me </h1>
                 {pngLink === "" ?
-                    <span/>
+                    <h1> About Me </h1>
                 :
-                    <img src={pngLink} width="250" height="278" alt="seckin"/>
+                    <img src={pngLink} className="image" alt="seckin"/>
                 }
             </div>
             {texts.map((text) => {
