@@ -18,7 +18,7 @@
         },
         {
             "isTitle": false,
-            "text": "I am very much into Music. I honestly enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years but my skills are way less than that since I rarely practice but mostly jam. I also sing and play harmonica have never had the confidence to do them in a group. In highschool, I got interested in maths behind Music, not to confuse with actual music theory. I only know surface level music theory for a 10+ year musician. I have painted my old classical guitar, assembled a Cura from my grand-uncle's handmade cura body, and built an unplayable one from scratch myself."
+            "text": "I am very much into Music. I honestly enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years with not much practice but mostly jams. In highschool, I got interested in maths behind Music. I also was interested int painting, assembling and even crafing(failed) instruments. I also not so confidently play harmonica, cura and sing."
         },
         {
             "isTitle": false,
@@ -211,7 +211,7 @@
             "link": "mailto: seckin.satir@ug.bilkent.edu.tr"
         }
     ],
-    "photoLink": "",
+    "photoLink": "https://i.hizliresim.com/619c314.jpg",
     "projectsExplanation": "Below are my projects in descending order by dates. Note that some of them are from my first months of programming so I'm not proud of each one of them.",
     "skillsExplanation": "Hover on each skill to see the latest projects I had used them in, and how confident I feel about those skills."
 }

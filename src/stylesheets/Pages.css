@@ -11,6 +11,12 @@
     font-size: var(--small-font-size);
 }
 
+.image{
+    border-radius: 3vw;
+    height: 16vw;
+    width: 29.5vw;
+}
+
 .box{
     color: var(--page-background);
     background-color: var(--text-color);
