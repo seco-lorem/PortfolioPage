@@ -13,7 +13,7 @@ function ProjectsPage() {
             {projects.map((project) => {
                 return (
                     <div>
-                        <hr/>
+                        <hr id={project.title}/>
                         <p className="date box">{project.date}</p>
                         <h2>{project.title}</h2>
                         <p>{project.description}</p>
