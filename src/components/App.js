@@ -15,7 +15,7 @@ import {BrowserRouter as Router} from "react-router-dom";
 
 export const TABS = [
 	{
-		"name": "About Me",
+		"name": "About",
 		"component": HomePage,
 		"route": ""
 	},
@@ -30,7 +30,7 @@ export const TABS = [
 		"route": "skills"
 	},
 	{
-		"name": "Contact Me",
+		"name": "Links",
 		"component": LinksPage,
 		"route": "links"
 	}
