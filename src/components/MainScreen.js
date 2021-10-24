@@ -1,4 +1,5 @@
 import {TABS} from './App';
+import NotFound from './PageNotFound';
 import '../stylesheets/Pages.css';
 
 import React, {useState} from 'react';
@@ -38,6 +39,7 @@ function MainScreen() {
                         <Route exact path={"/" + tab.route} component={tab.component}/>
                     )
                 })}
+                <Route component={NotFound} />
             </Switch>
         </div>
     );
