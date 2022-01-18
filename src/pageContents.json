@@ -6,7 +6,7 @@
         },
         {
             "isTitle": false,
-            "text": "My name is Seçkin (setch-keen). I was born in 2001 in Antalya. I've studied in Antalya till university. Now I study Computer Science in Bilkent University, planning to graduate on 2023. I've done an internship in 2021 summer and looking for one for next year. Please see /projects and /skills"
+            "text": "My name is Seçkin. I was born in 2001 in Antalya. I've studied in Antalya till university. Now I study Computer Science in Bilkent University, planning to graduate on 2023. I've done an internship in 2021 summer and looking for one for next year. Please see /projects and /skills"
         },
         {
             "isTitle": true,
@@ -14,11 +14,11 @@
         },
         {
             "isTitle": false,
-            "text": "I am fond of computer science and maths. In less scientific but enthusiastic levels, I am into Physics and Linguistics."
+            "text": "I am fond of computer science and maths. In not so scientific but enthusiastic ways, I am into Physics and Linguistics."
         },
         {
             "isTitle": false,
-            "text": "I am very much into Music. I honestly enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years with not much practice but mostly jams. In highschool, I got interested in maths behind Music. I also was interested in painting, assembling and even crafing(failed) instruments. I also not so confidently play harmonica, cura and sing."
+            "text": "I am very much into Music. I enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years with not much practice but regular jams mostly in groups. In highschool, I got interested in maths behind Music. I also was interested in painting, assembling and even crafing(failed) instruments. I also not so confidently play harmonica, cura and sing."
         },
         {
             "isTitle": false,
@@ -26,10 +26,21 @@
         },
         {
             "isTitle": false,
-            "text": "I am into geography, culture and a bit less into history, but not politics. If I had more time and money, I would be traveling more."
+            "text": "I sometimes can enjoy literature and frequently enjoy reading about random things. I am into geography, cultures and a bit less into history, but not politics. If I had more time and money, I would be traveling more."
         }
     ],
     "projects": [
+        {
+            "title": "Junior Year - Fall School Work",
+            "date": "~December 2021",
+            "description": "Some of my school projects are compiled on github with a readMe. Took CS courses: CS 315: Programing Languages, CS 319: Object Oriented Software Engineering, CS 421: Computer Networks, CS 464: Introduction to Machine Learning.",
+            "links": [
+                {
+                    "title": "Github",
+                    "link": "https://github.com/seco-lorem/SchoolWork#user-content-junior-years-fall"
+                }
+            ]
+        },
         {
             "title": "Portfolio Page",
             "date": "August 2021",
@@ -48,7 +59,7 @@
         {
             "title": "SatVI",
             "date": "July 2021",
-            "description": "Craiglist-like WebSite. I've first started this project with its frontend, using it as a learning and testing playground during internship. Last week of internship I've started learning backend with help of an intern friend. After Internship, I had to disconnect it from company's backend so I decided to build the backend to see it working again. Technologies used in frontend are javascript(React), redux(react-redux), react-router, apollo client(GraphQL), reactstrap(bootstrap), vanilla CSS, JSX. Technologies used in backend are Python, fastapi, graphene(GraphQL), sqlAlchemy. Frontend also includes a video player I created when I was asked if it was possible to build such a thing for advertisements. I've used deta to deploy backend as read-only, firebase to deploy frontend. It is not finished, as it was never intended to be.",
+            "description": "Craiglist-like WebSite. I've first started this project with its frontend, using it as a learning and testing playground during the internship. Last week of internship I've started learning backend with help of an intern friend. After Internship, I decided to build a backend. Technologies used in frontend are javascript(React), redux(react-redux), react-router, apollo client(GraphQL), reactstrap(bootstrap), vanilla CSS, JSX. Technologies used in backend are Python, fastapi, graphene(GraphQL), sqlAlchemy. Frontend also includes a video player I created when I was asked if it was possible to build such a thing for advertisements. I've used deta to deploy backend as read-only, firebase to deploy frontend. It is not finished, as it was never intended to be.",
             "links": [
                 {
                     "title": "🔗WebSite",
@@ -67,7 +78,7 @@
         {
             "title": "WCDTTBot",
             "date": "June 2021",
-            "description": "Bot for an experimental private subreddit that weekly: Adds random users, Adjusts ranks and adds them as userflairs, Kicks inactive users depending on their ranks, posts a recap about it. A Python project with an internet friend that uses PRAW. About 80% of the code from this version is written by me.",
+            "description": "Bot for an experimental private subreddit that weekly: Adds random users, Adjusts ranks and adds them as userflairs, Kicks inactive users depending on their ranks, posts a recap about it. A Python project with internet friends that uses PRAW.",
             "links": [
                 {
                     "title": "Github",
@@ -76,13 +87,13 @@
             ]
         },
         {
-            "title": "School Work",
+            "title": "Somphomore Year School Work",
             "date": "~May 2021",
-            "description": "School projects of my sophomore year is not listed here. Some of it is compiled on github with a readMe. Languages: C++ and Assembly and SystemVerilog.",
+            "description": "Some of my school projects are compiled on github with a readMe. Took CS courses: CS 201 & CS 202: Fundamental Structures of Computer Science I & II, CS 223: Digital Design, CS 224: Computer Organization.",
             "links": [
                 {
                     "title": "Github",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing"
+                    "link": "https://github.com/seco-lorem/SchoolWork#user-content-sophomore--freshman-years"
                 }
             ]
         },
@@ -104,7 +115,7 @@
             "links": [
                 {
                     "title": "Small Demo",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/MonitoRING"
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/MonitoRING"
                 }
             ]
         }
@@ -130,7 +141,7 @@
             "examples": [
                 {
                     "title": "A Homework",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/hw4"
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/CS201HW4"
                 }
             ]
         },
@@ -144,7 +155,7 @@
                 },
                 {
                     "title": "MonitoRing",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/MonitoRING"
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/MonitoRING"
                 }
             ]
         },
@@ -163,22 +174,22 @@
             ]
         },
         {
-            "name": "SystemVerilog",
-            "explanation": "Used it in Digital Design and Computer Architecture classes.",
-            "examples": [
-                {
-                    "title": "A Homework",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/224"
-                }
-            ]
-        },
-        {
             "name": "Assembly(MIPS)",
             "explanation": "Learnt it in Computer Architecture class. I was good at it but haven't used it since.",
             "examples": [
                 {
                     "title": "A Homework",
-                    "link": "https://github.com/seco-lorem/HowIsTheSchoolGoing/tree/main/224"
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/CS224LABS"
+                }
+            ]
+        },
+        {
+            "name": "SystemVerilog & Hardware",
+            "explanation": "Used it in Digital Design and Computer Architecture classes.",
+            "examples": [
+                {
+                    "title": "A Homework",
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/CS224LABS"
                 }
             ]
         },
@@ -189,6 +200,46 @@
                 {
                     "title": "Portfolio Page",
                     "link": "https://github.com/seco-lorem/PortfolioPage"
+                }
+            ]
+        },
+        {
+            "name": "Waterfall Methodology & UML",
+            "explanation": "Principles and stages of software development.",
+            "examples": [
+                {
+                    "title": "CS 319 Term Project",
+                    "link": "https://github.com/seco-lorem/YACM"
+                }
+            ]
+        },
+        {
+            "name": "Machine Learning",
+            "explanation": "Learnt the fundamentals of machine learning in CS 464.",
+            "examples": [
+                {
+                    "title": "CS 464 Term Project",
+                    "link": "https://github.com/larafenercioglu/emotion_detection"
+                }
+            ]
+        },
+        {
+            "name": "Programming Languages",
+            "explanation": "In CS 315 worked with lex and yacc, got introduced to functional programming using Scheme, explored the concepts of numerous programming languages which include: C, C++, C#, Dart, GoLang, Javascript, Perl, PHP, Python, Rust.",
+            "examples": [
+                {
+                    "title": "CS 315 Project & a Homework",
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/CS315"
+                }
+            ]
+        },
+        {
+            "name": "Internet Comprehension",
+            "explanation": "In CS 421, Internet and Computer Networks were covered in detail. Started from application layer, covered till link layer",
+            "examples": [
+                {
+                    "title": "HTTP Homework",
+                    "link": "https://github.com/seco-lorem/SchoolWork/tree/main/ParallelFileDownloader"
                 }
             ]
         }
