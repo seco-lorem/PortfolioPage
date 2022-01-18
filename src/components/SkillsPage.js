@@ -7,22 +7,7 @@ const skills = data.skills;
 const explanation = data.skillsExplanation;
 
 function SkillsPage() {
-/*
-    const [btnClassName, setBtnClassName] = useState("");
 
-    const indexRef = useRef(window.innerHeight);
-    indexRef.current = window.innerHeight;
-    const a = () => {
-        console.log(indexRef.current);
-        if (indexRef.current < 800) {
-            setBtnClassName("small skill");
-        }
-        else {
-            setBtnClassName("skill");
-        }
-    }
-    window.onresize = a;
-    console.log("Rerender");*/
     return (
         <div>
             <h1> Skills </h1>
