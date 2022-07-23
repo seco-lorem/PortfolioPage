@@ -6,38 +6,22 @@
         },
         {
             "isTitle": false,
-            "text": "My name is Seçkin. I was born in 2001 in Antalya. I've studied in Antalya till university. Now I study Computer Science in Bilkent University, planning to graduate on 2023. I've done an internship in 2021 summer and looking for one for next year. Please see /projects and /skills"
-        },
-        {
-            "isTitle": true,
-            "text": "My Interests"
+            "text": "My name is Seçkin. I was born in 2001 in Antalya. I had lived in Antalya till 2019. Now I study Computer Science in Bilkent University, planning to graduate on 2023."
         },
         {
             "isTitle": false,
-            "text": "I am fond of computer science and maths. In not so scientific but enthusiastic ways, I am into Physics and Linguistics."
-        },
-        {
-            "isTitle": false,
-            "text": "I am very much into Music. I enjoy many songs in genres ranging from Metal to Turkish Classical Music. I've been playing guitar for 10+ years with not much practice but regular jams mostly in groups. In highschool, I got interested in maths behind Music. I also was interested in painting, assembling and even crafing(failed) instruments. I also not so confidently play harmonica, cura and sing."
-        },
-        {
-            "isTitle": false,
-            "text": "I don't play any computer games since 2017, I forced myself to stop that year. But I still love to hold conversations about some, especially Gta San Andreas."
-        },
-        {
-            "isTitle": false,
-            "text": "I sometimes can enjoy literature and frequently enjoy reading about random things. I am into geography, cultures and a bit less into history, but not politics. If I had more time and money, I would be traveling more."
+            "text": "I am highly into computer science, maths and music. In not so scientific but enthusiastic ways, I am into physics geography and linguistics. I sometimes can enjoy literature and frequently enjoy reading about random things."
         }
     ],
     "projects": [
         {
-            "title": "Junior Year - Fall School Work",
-            "date": "~December 2021",
-            "description": "Some of my school projects are compiled on github with a readMe. Took CS courses: CS 315: Programing Languages, CS 319: Object Oriented Software Engineering, CS 421: Computer Networks, CS 464: Introduction to Machine Learning.",
+            "title": "Junior Year School Work",
+            "date": "~May 2021",
+            "description": "Some of my school projects are compiled on github with a readMe. Took CS courses: CS 315: Programing Languages, CS 319: Object Oriented Software Engineering, CS 342: Operating Systems, CS 353: Database Systems, CS 421: Computer Networks, CS 464: Introduction to Machine Learning.",
             "links": [
                 {
                     "title": "Github",
-                    "link": "https://github.com/seco-lorem/SchoolWork#user-content-junior-years-fall"
+                    "link": "https://github.com/seco-lorem/SchoolWork#junior-years-fall"
                 }
             ]
         },
@@ -93,7 +77,7 @@
             "links": [
                 {
                     "title": "Github",
-                    "link": "https://github.com/seco-lorem/SchoolWork#user-content-sophomore--freshman-years"
+                    "link": "https://github.com/seco-lorem/SchoolWork#sophomore--freshman-years"
                 }
             ]
         },

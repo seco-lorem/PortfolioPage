@@ -23,12 +23,12 @@ export const TABS = [
 		"name": "Projects",
 		"component": ProjectsPage,
 		"route": "projects"
-	},
+	},/*
 	{
 		"name": "Skills",
 		"component": SkillsPage,
 		"route": "skills"
-	},
+	},*/
 	{
 		"name": "Links",
 		"component": LinksPage,
